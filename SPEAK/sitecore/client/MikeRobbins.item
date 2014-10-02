@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {6DB010C2-A264-4497-A2E3-4B517BF1EA97}
+database: core
+path: /sitecore/client/MikeRobbins
+parent: {31056D46-2FAA-4EA2-8759-BE93EAE10001}
+name: MikeRobbins
+master: {00000000-0000-0000-0000-000000000000}
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 41
+
+Software/16x16/application_enterprise.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 887
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="Id=PageCode&amp;ScriptFolder=%25252fsitecore%25252fshell%25252fclient%25252fSitecore%25252fContent%25252fSpeak%25252fStartPage" ph="Page.Code" uid="{2B0B97D4-BFB7-450D-BCAD-134DD1759617}" />
+    <r id="{56A04392-9E0E-4609-AE9A-ACD28C7F749B}" ph="Page.Body" uid="{4D0687FE-F7C9-4D78-A0B3-119C929396AE}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{6E7556E3-74FE-4FC1-A7CF-E9E9BB361DB2}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text&amp;Text=SPEAK+BUILD+2" ph="ApplicationHeader.Title" uid="{6F4360E0-9FB8-42AD-996F-3A08D4EC137B}" />
+    <r id="{5BEE6C8A-D02D-485E-8D89-8D018D6EBDB8}" ph="ApplicationContent" uid="{1A47866F-E445-420C-8ED8-465F17FA8045}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 5f3ac76e-02f9-49ce-aead-2a3a1fb78f04
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120522T124329
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5f3ac76e-02f9-49ce-aead-2a3a1fb78f04
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140929T122809:635475904893353723
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 18
+
+ad\michael.robbins
