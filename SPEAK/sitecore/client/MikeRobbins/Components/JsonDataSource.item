@@ -22,7 +22,7 @@ name: Parameters Template
 key: parameters template
 content-length: 38
 
-{67804D50-8527-44FE-A146-B896AEFD4111}
+{36D599E5-189C-4D3F-B821-EAB3D66EE87B}
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -166,7 +166,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 0eb02228-83a8-4790-b709-15d3b06fe24b
+revision: d3a32b3c-12b5-4968-a249-631d09c93d8a
 
 ----field----
 field: {9541E67D-CE8C-4225-803D-33F7F29F09EF}
@@ -202,18 +202,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0eb02228-83a8-4790-b709-15d3b06fe24b
+d3a32b3c-12b5-4968-a249-631d09c93d8a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141002T112150:635478457108253607
+20141016T122421:635490590613333882
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-ad\michael.robbins
+sitecore\admin

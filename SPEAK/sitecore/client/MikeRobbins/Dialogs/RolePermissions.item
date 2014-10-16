@@ -63,7 +63,6 @@ content-length: 14067
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TemplateTreeCol&amp;GridColumns=8" ph="TemplateRow.Content" uid="{B9107643-54BC-40FC-ADB0-1E848DB8E460}" />
     <r id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}" par="Id=tvItems&amp;ShowHiddenItems=True&amp;ShowSitecoreIcons=1" ph="TemplateTreeCol.Content" uid="{A5D32952-F382-4523-B8AF-5B8A36DAFED6}" />
     <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bD2124CEB-E45A-44CF-8E26-4C2B468E6A1D%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{9E2C768B-6A5E-4159-81C9-4F405BDAB465}" />
-    <r id="{805C07BA-ACE6-4512-86D3-BB67FE36C350}" par="Id=JsonDS" ph="Page.Body" uid="{E3A84C87-F953-4E8B-993A-D8C892E09D2B}" />
     <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=pi&amp;IsFullscreen=True&amp;AutoShowTimeout=1000&amp;Tooltip=Applying+Permissions" ph="Page.Body" uid="{60A81B68-E40E-481A-913A-7FED43BF98F6}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="ContentAlign=Left&amp;Id=AccessBorder&amp;UsePadding=1" ph="LeftPane.Content" uid="{51D99885-DB54-4DF5-B3EA-2A95F3275DF6}" />
     <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ReadRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
@@ -115,6 +114,7 @@ content-length: 14067
     <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Not+Set&amp;Text=Not+Set" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
     <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Allow&amp;Text=Allow" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
     <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Deny&amp;Text=Deny" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
+    <r id="{314BF4B6-1875-4688-93BD-E2442FA2EA80}" par="Id=JsonDS" ph="Page.Body" uid="{03E1B76E-5D33-4F30-8538-15B0460B40B8}" />
   </d>
 </r>
 ----version----
@@ -228,7 +228,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 6da29fa4-0244-4506-8251-4bbc02890649
+revision: 8141d353-0ca3-4b62-a00c-864fc2f5b75b
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -264,21 +264,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6da29fa4-0244-4506-8251-4bbc02890649
+8141d353-0ca3-4b62-a00c-864fc2f5b75b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 34
 
-20141001T112405:635477594459896721
+20141016T122444:635490590840766623
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-ad\michael.robbins
+sitecore\admin
 ----version----
 language: ja-JP
 version: 1
