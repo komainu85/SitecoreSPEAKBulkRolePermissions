@@ -4,7 +4,7 @@
 @model RenderingModel
 @{
     var userControl = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
-    userControl.Requires.Script("controls", "JsonDataSource.js");
+    userControl.Requires.Script("mikerobbins", "JsonDataSource.js");
     userControl.Attributes["type"] = "text/x-sitecore-jsondatasource";
     userControl.DataBind = "Json: json";
     var htmlAttributes = userControl.HtmlAttributes;

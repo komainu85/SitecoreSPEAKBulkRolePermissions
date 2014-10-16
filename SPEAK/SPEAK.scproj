@@ -30,11 +30,11 @@
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <SitecoreWebUrl>http://tsi/</SitecoreWebUrl>
+    <SitecoreWebUrl>http://mikerobbins72</SitecoreWebUrl>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
     <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreDeployFolder>C:\inetpub\wwwroot\TSI\Website</SitecoreDeployFolder>
-    <SitecoreAccessGuid>c2de7407-9f60-443f-8e07-969237613e68</SitecoreAccessGuid>
+    <SitecoreDeployFolder>C:\inetpub\wwwroot\mikerobbins72\Website</SitecoreDeployFolder>
+    <SitecoreAccessGuid>272a0b30-ec28-4ca6-8029-28654beafc15</SitecoreAccessGuid>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
