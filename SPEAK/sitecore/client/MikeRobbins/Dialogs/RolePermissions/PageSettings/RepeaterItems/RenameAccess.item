@@ -1,0 +1,89 @@
+----item----
+version: 1
+id: {A332C6DD-CF74-42DC-BE13-6E1A1D143EA9}
+database: core
+path: /sitecore/client/MikeRobbins/Dialogs/RolePermissions/PageSettings/RepeaterItems/RenameAccess
+parent: {A58A6781-8193-4AB0-8C24-0AA63888D2D0}
+name: RenameAccess
+master: {00000000-0000-0000-0000-000000000000}
+template: {5D74DA71-0AFC-4614-AFCC-0DC23F8008BC}
+templatekey: RepeaterItem
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {B03569B1-1534-43F2-8C83-BD064B7D782C}
+name: __Renderers
+key: __renderers
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1349
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RenameRow" ph="Page.Body" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RenameLabelCol&amp;GridColumns=4" ph="RenameRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=RenameLabel&amp;Text=Rename+Access" ph="RenameLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RenameCheckBoxCol&amp;GridColumns=5" ph="RenameRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Not+Set&amp;Text=Not+Set" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Allow&amp;Text=Allow" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
+    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Deny&amp;Text=Deny" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 583c9f8b-fb3c-41fe-abd6-d1116356f9c7
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141224T144549Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+583c9f8b-fb3c-41fe-abd6-d1116356f9c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141224T152621:635550315819065892Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,306 @@
+----item----
+version: 1
+id: {6B846FBD-8549-4C91-AE6B-18286EFE82D2}
+database: core
+path: /sitecore/client/Applications/Launchpad
+parent: {9CBE9270-1377-48CC-87B6-263F4C705C7D}
+name: Launchpad
+master: {00000000-0000-0000-0000-000000000000}
+template: {B11AFCCD-C286-4384-B694-4465D6C605DE}
+templatekey: Speak-DashboardPage
+
+----field----
+field: {5E642935-A6FC-48E9-B039-FE1136CED488}
+name: Theme
+key: theme
+content-length: 7
+
+Harvard
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 33
+
+Applications/16x16/media_play.png
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4723
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
+    <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeTypeName=Sitecore.LaunchPad.LaunchPad%2c+Sitecore.LaunchPad&amp;PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fLaunchPad%2fLaunchPad.js" ph="Page.Code" uid="{4384EC19-B143-4059-B6A4-142FE2645693}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{6E265D00-0C65-41A5-96A9-14A579B7BA29}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{5A309782-0857-4857-9898-79B701CF1A56}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{4CCD9FDA-3686-4A88-ABC9-6E968EE4D0DA}" />
+    <r id="{2EE499CD-439A-4F10-B81F-36A54CAC01DB}" ph="GlobalHeader.LoginInfo" uid="{60FE3FAE-6338-49FA-9A1A-4158740149C8}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{7640778D-34EC-426A-875D-3FA573EC2DAF}" />
+    <r id="{AF79ED5D-4396-4EEC-8E22-9D7C523266FA}" par="Id=Breadcrumb2&amp;RootItemId=%7bA3F0D121-2CEC-454A-ADB1-9F3CED6BF2FB%7d" ph="ApplicationHeader.BreadCrumb" uid="{D7CA4BD6-5A96-4868-89E4-CFBAB0F09F96}" />
+    <r ds="{FDE99A0D-D215-4BB7-8B98-51606B180ACE}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text2&amp;TextType=Text" ph="ApplicationHeader.Title" uid="{485FEC56-8663-4647-8741-6C4A4FC21A51}" />
+    <r id="{19A9EB6B-1283-49EB-BD75-AAFE76453469}" ph="ApplicationContent" uid="{258C0220-9CCB-4276-907E-4153ED5571EA}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel1" ph="ApplicationContent.Main" uid="{4B2F6C9A-79A7-4F9D-9F99-C1BE371081CD}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanel1&amp;GridColumns=12" ph="RowPanel1.Content" uid="{229C7E83-38FC-4078-935B-F6449C1EBD12}" />
+    <r id="{560F09E2-1C08-458A-AF4B-F0D89EA8BE30}" ph="ColumnPanel1.Content" uid="{47925744-04FF-4DE3-A797-EBFAFB83D6A8}" />
+    <r id="{BEEEDCF8-45DF-4895-A261-CAEE9B91C77F}" par="IsVisible=False" ph="ColumnPanel1.Content" uid="{C5D96FC8-4519-430A-9B0D-29F2B7DB0FA2}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=RowPanelTilesWrapper" ph="ColumnPanel1.Content" uid="{4E6B4E42-DBFB-44F6-8206-352275C1CE3F}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanelTiles" ph="RowPanelTilesWrapper.Content" uid="{89FD779A-A017-4614-834E-CDD76801CA14}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanelInteractions&amp;GridColumns=6" ph="RowPanelTiles.Content" uid="{C1A59D3A-63E3-40B8-BBC3-896992E3A339}" />
+    <r ds="{FA046F20-75A5-4C7F-9FEC-FAC6EEAC33D7}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=InteractionChartApp" ph="ColumnPanelInteractions.Content" uid="{223D3EF6-DCA7-49F5-B34C-076AC8507BBC}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ColumnPanelCampaigns&amp;GridColumns=6" ph="RowPanelTiles.Content" uid="{C1A59D3A-63E3-40B8-BBC3-896992E3A339}" />
+    <r ds="{7431DE4F-C65B-4CBC-B5BA-FD99E1931AE9}" id="{1E538B08-446D-40BF-BE63-B6ABBD266C6A}" par="Id=CampaignsChartApp" ph="ColumnPanelCampaigns.Content" uid="{908EC629-1101-4ADB-AF84-6EB2CC6E8A14}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallBackMessageBorder&amp;IsVisible=True" ph="ColumnPanel1.Content" uid="{D04496CC-6E37-47C5-B2CF-26D9F683A0B0}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=FallBackMessageRow" ph="FallBackMessageBorder.Content" uid="{275CB122-F0C8-418B-BAC9-F14FF4BF5152}" />
+    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=FallBackMessageCol&amp;GridColumns=6" ph="FallBackMessageRow.Content" uid="{6E7C622A-0D3F-4565-94B4-2C956FD9C6CC}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=AnalyticsFallback" ph="FallBackMessageCol.Content" uid="{FCA30821-FBC1-4877-8BF5-5141F284D0F6}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallbackMessageHeaderWrap" ph="AnalyticsFallback.Content" uid="{4179F2B2-CE4E-4A56-9398-9FC79A061665}" />
+    <r ds="{B79C9216-E15D-49FE-B7CE-73AD44AFEFE2}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FallbackHeader&amp;TextType=LargeTitle" ph="FallbackMessageHeaderWrap.Content" uid="{D8955B51-AE54-4B91-8504-AF9EFD96A66C}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=FallbackMessageWrap&amp;ContentAlignment=Left" ph="AnalyticsFallback.Content" uid="{1A28478C-7CE0-484B-B214-D50E0088739E}" />
+    <r ds="{A2F582BC-E73E-4C2C-BC04-EBCF34F94DFD}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=FallBackMessage&amp;TextType=Title" ph="FallbackMessageWrap.Content" uid="{48789849-0332-429F-BC69-C701D1F6B021}" />
+  </d>
+</r>
+----version----
+language: da
+version: 1
+revision: fa7c67a9-cfd5-4036-8b19-b18416d79843
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 19
+
+Sitecore Launch Pad
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Affyringsrampe
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141212T145131:635539926916078434Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa7c67a9-cfd5-4036-8b19-b18416d79843
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141212T145131:635539926916078434Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 93800a9a-d3d4-44c3-9d8e-30e5c89c4dd3
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 19
+
+Sitecore Launch Pad
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+Launch Pad
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141212T145006:635539926068131904Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93800a9a-d3d4-44c3-9d8e-30e5c89c4dd3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141212T145006:635539926068131904Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 312a4bd4-8f99-43e1-a855-5bafd1da151f
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+Sitecore Launchpad
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140613T115323
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+312a4bd4-8f99-43e1-a855-5bafd1da151f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141203T094631:635531967911897348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: faa6f472-57a7-41e1-9328-5676d535818f
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 17
+
+Sitecore ラウンチ パッド
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+ラウンチ パッド
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 35
+
+20141212T145251:635539927719804069Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+faa6f472-57a7-41e1-9328-5676d535818f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141212T145251:635539927719804069Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

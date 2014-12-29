@@ -3,7 +3,7 @@ version: 1
 id: {FB1FD0F4-6DEF-496F-B6DE-47C4E977C7BC}
 database: core
 path: /sitecore/client/MikeRobbins/Dialogs/RolePermissions
-parent: {30D69DB3-BF6D-4282-833D-B3C664807ADD}
+parent: {10A088BC-A356-4530-A323-EF2627C9260E}
 name: RolePermissions
 master: {00000000-0000-0000-0000-000000000000}
 template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
@@ -34,86 +34,39 @@ content-length: 1
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 14067
+content-length: 5426
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}">
     <r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%5cMikeRobbins%5cDialogs%5cRolePermissions%5cRolePermissions.js" ph="Page.Code" uid="{80E3DC19-C6B1-4A86-B69C-D435827D2848}" />
-    <r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{2893FB8A-59F0-4103-B050-D4095573A3F9}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=HeaderTitle&amp;Text=Bulk+Set+Role+Permissions" ph="DialogHeader.Title" uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
-    <r id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=javascript%3aapp.ApplyPermissions()&amp;BackgroundPosition=-68px+-119px&amp;Id=btnApplyPermissions&amp;IsEnabled=true&amp;ButtonType=Primary&amp;Tooltip=Apply+Permissions&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite-white.png&amp;Text=Apply+Permissions" ph="DialogHeader.Buttons" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
-    <r id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CancelButton&amp;ButtonType=Default&amp;Tooltip=Close+the+dialog+box&amp;Text=Cancel" ph="DialogHeader.Buttons" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
-    <r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{9BA00345-AD14-44A0-923F-8BE95A6AAA6E}" />
-    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Title&amp;UsePadding=1" ph="DialogContent" uid="{80DD63C0-F300-4FC0-A2F7-A34272D4AC2E}" />
-    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=miMessages" ph="DialogContent" uid="{E36ED12C-78AF-4505-BEAA-A97D8EC612B9}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TargetWindowLabel&amp;Text=Bulk+Set+Role+Permissions" ph="TargetLabelCol.Content" uid="{8728BC9D-C391-4E8B-9568-C87D9D2275CC}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel" ph="DialogContent" uid="{C3429BAC-37B4-4551-A763-F4620CE7838C}" />
+    <r id="{BE007891-2D9C-4E67-943C-752DBA0C041F}" ph="Page.Body" uid="{2893FB8A-59F0-4103-B050-D4095573A3F9}" />
+    <r id="{5AE97C0C-EE88-4564-A363-4FA11C01C90A}" ph="GlobalHeader" uid="{8FDD8CE4-5FE5-4371-80DE-E202029F1FE0}" />
+    <r id="{7A69C522-7E99-4630-A25A-5D571505862A}" par="Id=GlobalLogo1" ph="GlobalHeader.StartButton" uid="{A1EA1D35-CD5B-4D6F-9B1E-CA0FAD0BDC61}" />
+    <r id="{93CEEFCD-2DE1-40AF-AE9A-EBBFBCCC522F}" ph="ApplicationHeader" uid="{AB71DF20-338F-491D-B5A9-2A801651C827}" />
+    <r id="{19A9EB6B-1283-49EB-BD75-AAFE76453469}" ph="ApplicationContent" uid="{3BFF6F0F-26F0-4D45-8F82-F41AC55BD72A}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="&amp;Id=HeaderTitle&amp;Text=Bulk+Set+Role+Permissions" ph="ApplicationHeader.Title" uid="{1DC97590-77EC-4F75-A687-D86F7D22CAAA}" />
+    <r id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Click=javascript%3aapp.ApplyPermissions()&amp;BackgroundPosition=-68px+-119px&amp;Id=btnApplyPermissions&amp;IsEnabled=1&amp;ButtonType=Primary&amp;Tooltip=Apply+Permissions&amp;ImageUrl=%2fsitecore%2fshell%2fclient%2fSpeak%2fAssets%2fimg%2fsc-sprite-white.png&amp;Text=Apply+Permissions" ph="ApplicationHeader.Actions" uid="{F5005B19-B18B-47BE-B0CA-D92005C2FECA}" />
+    <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=Title&amp;UsePadding=1" ph="ApplicationContent.Main" uid="{80DD63C0-F300-4FC0-A2F7-A34272D4AC2E}" />
+    <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=miMessages" ph="ApplicationContent.Main" uid="{E36ED12C-78AF-4505-BEAA-A97D8EC612B9}" />
+    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RowPanel" ph="ApplicationContent.Main" uid="{C3429BAC-37B4-4551-A763-F4620CE7838C}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=LeftPane&amp;GridColumns=6" ph="RowPanel.Content" uid="{0BBE67B9-8BB7-44D7-9560-F4BC17F47369}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="ContentAlign=Left&amp;Id=RoleBorder&amp;UsePadding=1" ph="LeftPane.Content" uid="{51D99885-DB54-4DF5-B3EA-2A95F3275DF6}" />
     <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RoleRow1" ph="RoleBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RoleLabelCol&amp;GridColumns=4" ph="RoleRow1.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
     <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=RoleLabel&amp;Text=Role" ph="RoleLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RoleTextCol&amp;GridColumns=8" ph="RoleRow1.Content" uid="{B9107643-54BC-40FC-ADB0-1E848DB8E460}" />
-    <r id="{25D357D3-3648-4336-9B53-55EED7CFA078}" par="Id=Role&amp;IsVisible=True&amp;DisplayFieldName=Name&amp;Items=%7bBinding+JsonDS.Json%7d&amp;ValueFieldName=Name&amp;IsEnabled=True" ph="RoleTextCol.Content" uid="{1224D2F9-4195-4158-9FE0-4AB949ED2E35}" />
+    <r id="{25D357D3-3648-4336-9B53-55EED7CFA078}" par="Id=Role&amp;IsVisible=1&amp;DisplayFieldName=Name&amp;Items=%7bBinding+JsonDS.Json%7d&amp;ValueFieldName=Name&amp;IsEnabled=1" ph="RoleTextCol.Content" uid="{1224D2F9-4195-4158-9FE0-4AB949ED2E35}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RightPane&amp;GridColumns=6" ph="RowPanel.Content" uid="{0BBE67B9-8BB7-44D7-9560-F4BC17F47369}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="ContentAlign=Left&amp;Id=TemplateBorder&amp;UsePadding=1" ph="RightPane.Content" uid="{51D99885-DB54-4DF5-B3EA-2A95F3275DF6}" />
     <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=TemplateRow" ph="TemplateBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TemplateLabelCol&amp;GridColumns=4" ph="TemplateRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
     <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=TemplateLabel&amp;Text=Items" ph="TemplateLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
     <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=TemplateTreeCol&amp;GridColumns=8" ph="TemplateRow.Content" uid="{B9107643-54BC-40FC-ADB0-1E848DB8E460}" />
-    <r id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}" par="Id=tvItems&amp;ShowHiddenItems=True&amp;ShowSitecoreIcons=1" ph="TemplateTreeCol.Content" uid="{A5D32952-F382-4523-B8AF-5B8A36DAFED6}" />
-    <r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bD2124CEB-E45A-44CF-8E26-4C2B468E6A1D%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{9E2C768B-6A5E-4159-81C9-4F405BDAB465}" />
-    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=pi&amp;IsFullscreen=True&amp;AutoShowTimeout=1000&amp;Tooltip=Applying+Permissions" ph="Page.Body" uid="{60A81B68-E40E-481A-913A-7FED43BF98F6}" />
+    <r id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}" par="Id=tvItems&amp;ShowHiddenItems=1&amp;ShowSitecoreIcons=1" ph="TemplateTreeCol.Content" uid="{A5D32952-F382-4523-B8AF-5B8A36DAFED6}" />
+    <r id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=pi&amp;IsFullscreen=1&amp;AutoShowTimeout=1000&amp;Tooltip=Applying+Permissions" ph="Page.Body" uid="{60A81B68-E40E-481A-913A-7FED43BF98F6}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="ContentAlign=Left&amp;Id=AccessBorder&amp;UsePadding=1" ph="LeftPane.Content" uid="{51D99885-DB54-4DF5-B3EA-2A95F3275DF6}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=ReadRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ReadLabelCol&amp;GridColumns=4" ph="ReadRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=ReadLabel&amp;Text=Read+Access" ph="ReadLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=ReadCheckBoxCol&amp;GridColumns=4" ph="ReadRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Read&amp;Id=Read&amp;Value=Not+Set&amp;Text=Not+Set" ph="ReadCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Read&amp;Id=Read&amp;Value=Allow&amp;Text=Allow" ph="ReadCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Read&amp;Id=Read&amp;Value=Deny&amp;Text=Deny" ph="ReadCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=WriteRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=WriteLabelCol&amp;GridColumns=4" ph="WriteRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=WriteLabel&amp;Text=Write+Access" ph="WriteLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=WriteCheckBoxCol&amp;GridColumns=4" ph="WriteRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Write&amp;Id=Write&amp;Value=Not+Set&amp;Text=Not+Set" ph="WriteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Write&amp;Id=Write&amp;Value=Allow&amp;Text=Allow" ph="WriteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Write&amp;Id=Write&amp;Value=Deny&amp;Text=Deny" ph="WriteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=RenameRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RenameLabelCol&amp;GridColumns=4" ph="RenameRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=RenameLabel&amp;Text=Rename+Access" ph="RenameLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=RenameCheckBoxCol&amp;GridColumns=4" ph="RenameRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Not+Set&amp;Text=Not+Set" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Allow&amp;Text=Allow" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Rename&amp;Id=Rename&amp;Value=Deny&amp;Text=Deny" ph="RenameCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=CreateRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CreateLabelCol&amp;GridColumns=4" ph="CreateRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=CreateLabel&amp;Text=Create+Access" ph="CreateLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=CreateCheckBoxCol&amp;GridColumns=4" ph="CreateRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Create&amp;Id=Create&amp;Value=Not+Set&amp;Text=Not+Set" ph="CreateCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Create&amp;Id=Create&amp;Value=Allow&amp;Text=Allow" ph="CreateCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Create&amp;Id=Create&amp;Value=Deny&amp;Text=Deny" ph="CreateCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=DeleteRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DeleteLabelCol&amp;GridColumns=4" ph="DeleteRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=DeleteLabel&amp;Text=Delete+Access" ph="DeleteLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=DeleteCheckBoxCol&amp;GridColumns=4" ph="DeleteRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Delete&amp;Id=Delete&amp;Value=Not+Set&amp;Text=Not+Set" ph="DeleteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Delete&amp;Id=Delete&amp;Value=Allow&amp;Text=Allow" ph="DeleteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Delete&amp;Id=Delete&amp;Value=Deny&amp;Text=Deny" ph="DeleteCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=AdministerRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=AdministerLabelCol&amp;GridColumns=4" ph="AdministerRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=AdministerLabel&amp;Text=Administer+Access" ph="AdministerLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=AdministerCheckBoxCol&amp;GridColumns=4" ph="AdministerRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Administer&amp;Id=Administer&amp;Value=Not+Set&amp;Text=Not+Set" ph="AdministerCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Administer&amp;Id=Administer&amp;Value=Allow&amp;Text=Allow" ph="AdministerCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Administer&amp;Id=Administer&amp;Value=Deny&amp;Text=Deny" ph="AdministerCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{C4393722-39FA-4869-9582-3A8EB8983A0D}" par="Id=InheritanceRow" ph="AccessBorder.Content" uid="{6D34FC6B-2599-469E-8CE1-A2DD2A042881}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InheritanceLabelCol&amp;GridColumns=4" ph="InheritanceRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=InheritanceLabel&amp;Text=Inheritance" ph="InheritanceLabelCol.Content" uid="{7E0A3BA9-4537-47B4-B2D4-FE955D448B4F}" />
-    <r id="{5CB208F6-1860-426B-8221-FAA85B329848}" par="Id=InheritanceCheckBoxCol&amp;GridColumns=4" ph="InheritanceRow.Content" uid="{D848A222-C818-48BB-9C1A-75B39BBDEB73}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Not+Set&amp;Text=Not+Set" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Allow&amp;Text=Allow" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
-    <r id="{8BECEF35-1374-4D25-8A1A-4CDCC4218AA9}" par="GroupName=Inheritance&amp;Id=Inheritance&amp;Value=Deny&amp;Text=Deny" ph="InheritanceCheckBoxCol.Content" uid="{C7D558A4-65DF-4687-9C7C-11ECB826CB35}" />
+    <r id="{BB7C3714-EC05-459D-A93E-39C8B9C504D3}" par="Id=Repeater1&amp;Items=%7bBinding+DataSource.Items%7d" ph="AccessBorder.Content" uid="{1D792D33-D612-4FDD-B3C6-55F737676CB3}" />
+    <r id="{33A02142-2DBD-4034-AEA2-BDF215EB2451}" par="Id=DataSource&amp;Query=%2fsitecore%2fclient%2fMikeRobbins%2fDialogs%2fRolePermissions%2fPageSettings%2fRepeaterItems%2f*&amp;Database=core" ph="Page.Body" uid="{A4A2F1B1-5E8E-4B2B-82FF-48AA9854646A}" />
     <r id="{314BF4B6-1875-4688-93BD-E2442FA2EA80}" par="Id=JsonDS" ph="Page.Body" uid="{03E1B76E-5D33-4F30-8538-15B0460B40B8}" />
   </d>
 </r>
@@ -228,7 +181,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: 8141d353-0ca3-4b62-a00c-864fc2f5b75b
+revision: 68c9581b-33e9-4a28-b6dd-ac379c859e33
 
 ----field----
 field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
@@ -264,14 +217,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8141d353-0ca3-4b62-a00c-864fc2f5b75b
+68c9581b-33e9-4a28-b6dd-ac379c859e33
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 35
 
-20141016T122444:635490590840766623
+20141224T153512:635550321121166049Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

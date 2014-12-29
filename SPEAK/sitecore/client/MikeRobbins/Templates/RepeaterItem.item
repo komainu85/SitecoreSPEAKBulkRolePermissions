@@ -1,33 +1,33 @@
 ----item----
 version: 1
-id: {10A088BC-A356-4530-A323-EF2627C9260E}
+id: {5D74DA71-0AFC-4614-AFCC-0DC23F8008BC}
 database: core
-path: /sitecore/client/MikeRobbins/Dialogs
-parent: {6DB010C2-A264-4497-A2E3-4B517BF1EA97}
-name: Dialogs
+path: /sitecore/client/MikeRobbins/Templates/RepeaterItem
+parent: {A7289EE3-978C-4694-AD6D-A2C0D10065F3}
+name: RepeaterItem
 master: {00000000-0000-0000-0000-000000000000}
-template: {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
-templatekey: Node
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
 ----version----
 language: en
 version: 1
-revision: 54a6069c-ff69-4bb3-a44e-11303cde9808
+revision: 6d222b08-e6ce-4d4f-8278-6510be2136fd
 
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20141223T090916Z
+20141224T144339Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-54a6069c-ff69-4bb3-a44e-11303cde9808
+6d222b08-e6ce-4d4f-8278-6510be2136fd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20141223T090916:635549225563109553Z
+20141224T144339:635550290199744216Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

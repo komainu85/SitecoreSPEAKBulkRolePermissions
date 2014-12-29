@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {10A088BC-A356-4530-A323-EF2627C9260E}
+id: {A7289EE3-978C-4694-AD6D-A2C0D10065F3}
 database: core
-path: /sitecore/client/MikeRobbins/Dialogs
+path: /sitecore/client/MikeRobbins/Templates
 parent: {6DB010C2-A264-4497-A2E3-4B517BF1EA97}
-name: Dialogs
+name: Templates
 master: {00000000-0000-0000-0000-000000000000}
-template: {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
-templatekey: Node
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
 
 ----version----
 language: en
 version: 1
-revision: 54a6069c-ff69-4bb3-a44e-11303cde9808
+revision: 8154553a-c6d6-4153-915a-86e34a17caa7
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -27,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20141223T090916Z
+20141224T144037Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-54a6069c-ff69-4bb3-a44e-11303cde9808
+8154553a-c6d6-4153-915a-86e34a17caa7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 35
 
-20141223T090916:635549225563109553Z
+20141224T144037:635550288373431603Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
